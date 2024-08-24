@@ -1,0 +1,8 @@
+/* In your CSS file */
+.nav-link {
+    color: #0288d1 !important; /* Force blue color */
+    text-decoration: none;      /* Remove underline */
+}
+.nav-link:hover {
+    color: #01579b;             /* Darker blue on hover */
+}
