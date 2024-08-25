@@ -103,6 +103,8 @@ const Paragraph = () => {
                         borderRadius: 5,
                         borderColor: "natural.medium",
                         bgcolor: "background.default",
+                        overflowY: "auto", // Enables vertical scrolling
+                        overflowX: "hidden", // Prevents horizontal scrolling
                     }}
                 >
                     <Typography p={2}>{para}</Typography>
