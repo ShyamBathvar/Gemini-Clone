@@ -29,7 +29,7 @@ const Paragraph = () => {
         e.preventDefault();
         try {
             // Make sure the URL matches your API endpoint
-            const { data } = await axios.post("/api/v1/ai/generate-text", { prompt: text });
+            const { data } = await axios.post("https://gemini-clone-backend-qaqq.onrender.com/api/v1/ai/generate-text", { prompt: text });
             console.log(data);
 
             // Assuming the API returns { text: "generated text" }
